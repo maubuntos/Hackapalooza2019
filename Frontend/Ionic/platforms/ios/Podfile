@@ -2,7 +2,7 @@
 
 platform :ios, '9.0'
 
-target 'Un Dos Tres' do
-	project 'Un Dos Tres.xcodeproj'
+target 'Uxer' do
+	project 'Uxer.xcodeproj'
 
 end

@@ -1134,6 +1134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _agm_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @agm/core */ "./node_modules/@agm/core/index.js");
 /* harmony import */ var ngx_qrcode2__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ngx-qrcode2 */ "./node_modules/ngx-qrcode2/index.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1159,9 +1160,9 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 // import { NewTaskModalPage } from './new-task-modal/new-task-modal.page';
 //Para Google Maps
 
-//Para NFC
-// import { NFC, Ndef } from '@ionic-native/nfc/ngx';
 //Para QR
+
+//Para APIs REST
 
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -1186,7 +1187,8 @@ var AppModule = /** @class */ (function () {
                 _agm_core__WEBPACK_IMPORTED_MODULE_16__["AgmCoreModule"].forRoot({
                     apiKey: 'AIzaSyAsItvwpqZuZQcbDyM6Dy2cu_3Hoo_V1_I' // Api Key para Google Maps
                 }),
-                ngx_qrcode2__WEBPACK_IMPORTED_MODULE_17__["NgxQRCodeModule"]
+                ngx_qrcode2__WEBPACK_IMPORTED_MODULE_17__["NgxQRCodeModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_18__["HttpClientModule"]
             ],
             providers: [
                 _ionic_native_status_bar_ngx__WEBPACK_IMPORTED_MODULE_5__["StatusBar"],
@@ -1520,7 +1522,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/mauricio/ionic/ionic-meetups/Framework/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/mauricio/ionic/Hackapalooza2019/Frontend/Ionic/src/main.ts */"./src/main.ts");
 
 
 /***/ })
